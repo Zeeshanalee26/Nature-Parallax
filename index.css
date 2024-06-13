@@ -1,0 +1,88 @@
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+  height: 5px;
+  background-color: hsl(0, 0%, 95%);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: hsl(120, 88%, 20%);
+  height: 5px;
+  border-radius: 10px;
+}
+
+.img1 {
+  background-image: url(images/image1.png);
+  min-height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.img2 {
+  background-image: url(images/image2.png);
+  min-height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.img3 {
+  background-image: url(images/image3.png);
+  min-height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.textbg {
+  background-color: hsl(0, 0%, 20%);
+  color: white;
+  display: inline;
+  padding: 20px;
+}
+
+.section1 {
+  padding: 50px 80px;
+  text-align: center;
+  background-color: f4f4f4;
+  color: #666;
+}
+
+.section2 {
+  padding: 50px 80px;
+  text-align: center;
+  background-color: #282e34;
+  color: #ddd;
+}
+
+.section3 {
+  padding: 50px 80px;
+  text-align: center;
+}
